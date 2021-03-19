@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
-import Counter from "./Counter";
+import InputSample from "./inputSample";
 
 function App() {
-  return <Counter />;
+  const text = "1";
+  return <InputSample input={text} />;
 }
 
 export default App;
