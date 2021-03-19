@@ -1,3 +1,3 @@
 import React from "react";
 
-export const Hello = () => <div>Hello world</div>;
+export const Hello = () => <div>Hello</div>;
