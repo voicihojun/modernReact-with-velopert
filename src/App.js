@@ -1,21 +1,14 @@
 import React from "react";
-import { Hello } from "./Hello";
+import Hello from "./Hello";
 import "./App.css";
+import Wrapper from "./Wrapper";
 
 function App() {
-  const name = "React";
-  const style = {
-    background: "pink",
-    color: "orange",
-    fontSize: 24,
-    padding: "1rem",
-  };
   return (
-    <>
-      <Hello />
-      <div style={style}>{name}</div>
-      <div className="gray-box"></div>
-    </>
+    <Wrapper>
+      <Hello name="react" color="red" />
+      <Hello color="blue" />
+    </Wrapper>
   );
 }
 
