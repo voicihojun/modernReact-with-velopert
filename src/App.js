@@ -1,10 +1,9 @@
 import React from "react";
 import "./App.css";
-import InputSample from "./inputSample";
+import UserList from "./UserList";
 
 function App() {
-  const text = "1";
-  return <InputSample input={text} />;
+  return <UserList />;
 }
 
 export default App;
